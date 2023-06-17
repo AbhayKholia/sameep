@@ -18,9 +18,21 @@ const App = () => {
          <Header/>     
          <Sidebar/>
          <Routes>
+          {/* home page router */}
          <Route path="/" element={<Home />} />
+         {/* Single product Router */}
+         <Route path="/product/:id" element={<ProductSingle/>} />
+         {/* categories listing router */}
+         <Route path="/category/:category" element = {<CategoryProduct/>}/>
+         {/* Cart */}
+         <Route path="/cart" element={<Cart/>}/>
+         {/* searched products */}
+         <Route path="/search/:searchTerm" element = {<Search/>}/>
+
          </Routes>
+         {/* <Footer/> */}
       </BrowserRouter>
+      
       </Provider>
     </div>
   )

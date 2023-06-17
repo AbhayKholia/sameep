@@ -61,8 +61,9 @@ const divStyle ={
     display:"flex",
     alignItems:"center",
     justifyContent:"center",
-    height:"400px",
-    backgroundSize:"cover"
+    height:"300px",
+    backgroundSize:"cover",
+    marginTop:"30px"
 }
 
 const Slider = () => {
@@ -82,3 +83,7 @@ const Slider = () => {
 }
 
 export default Slider
+
+
+
+
