@@ -1,0 +1,16 @@
+
+
+.product-lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    gap: 40px;
+    margin-right: 66px;
+margin-left: 55px;
+}
+.product-lists a{
+
+    
+padding: 10px;
+border-radius: 10px;
+height: 350px;
+}
